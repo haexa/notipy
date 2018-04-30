@@ -23,7 +23,7 @@ Add a sound notification! Add an image pop-up! Get rid of the text output and ma
 
 ` git clone "https://github.com/haexa/notipy.git"`\
 ` cd notipy`\
-Open search.txt with your text editor of choice and change the url, key and frq variables.
+Open search.txt with your text editor of choice and change the url, key and frq variables.\
 ` python noti.py`
 
 
