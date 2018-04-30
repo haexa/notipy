@@ -19,15 +19,10 @@ Add a sound notification! Add an image pop-up! Hardcode the arguments and make i
 
 #### How do I RUN this?
 
-```
-git clone "https://github.com/haexa/notipy.git"
-```
-```
-cd notipy
-```
-```
-python noti.py
-```
+
+` git clone "https://github.com/haexa/notipy.git"`
+` cd notipy`
+` python noti.py`
 
 
 #### How did you think of this name? It's genius and very original!
