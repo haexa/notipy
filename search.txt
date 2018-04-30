@@ -1,0 +1,3 @@
+url: "https://changelogs.ubuntu.com/meta-release"
+key: "18.04"
+frq: "5"

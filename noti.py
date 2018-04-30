@@ -12,10 +12,15 @@ import requests, time
 # Frequency >  5
 # checks once every 5 minutes for mentions of "18.04" on the page.
 
+with open("search.txt", "r") as f:
+    for i,line in enumerate(f):
+        if i==0:
+            url = line[6:-2]
+        if i==1:
+            query = line[6:-2]
+        if i==2:
+            freq = float(line[6:-2])
 
-url = raw_input("Page to be queried >  ")
-query = raw_input("Query >  ")
-freq = input("Frequency >  ")
 
 page = requests.get(url)
 if page.status_code != 200:

@@ -6,21 +6,24 @@ Takes the page url, keyword, and frequency (in minutes) as arguments, then queri
 If you're waiting for a ticket release, new webcomic chapter or even a relevant tweet, you can set this to run and forget about refreshing the page yourself!
 
 #### Example:
+search.txt:
 ```
-Page to be queried >  https://changelogs.ubuntu.com/meta-release
-Query >  18.04
-Frequency >  5
+url: "https://changelogs.ubuntu.com/meta-release"
+key: "18.04"
+frq: "5"
 ```
 
+noti.py:
 Checks once every 5 minutes for the meta-release of Ubuntu 18.04 in the changelogs.
 
 #### How can I expand this?
-Add a sound notification! Add an image pop-up! Hardcode the arguments and make it terminal-independent!
+Add a sound notification! Add an image pop-up! Get rid of the text output and make it terminal-independent!
 
 #### How do I RUN this?
 
 ` git clone "https://github.com/haexa/notipy.git"`\
 ` cd notipy`\
+Open search.txt with your text editor of choice and change the url, key and frq variables.
 ` python noti.py`
 
 
